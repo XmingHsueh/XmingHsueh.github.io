@@ -236,6 +236,43 @@
       </td>
     </tr>
 
+	<tr onmouseout="s3tl_stop()" onmouseover="s3tl_start()">
+      <td style="padding:20px;width:30%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='s3tl_image'><video  width=130% muted autoplay loop>
+          <source src="data-xming/images/s3tl.jpg" type="video/mp4">
+          Your browser does not support the video tag.
+          </video></div>
+          <img src='data-xming/images/s3tl.jpg' width=130%>
+        </div>
+        <script type="text/javascript">
+          function s3tl_start() {
+            document.getElementById('s3tl_image').style.opacity = "1";
+          }
+
+          function s3tl_stop() {
+            document.getElementById('s3tl_image').style.opacity = "0";
+          }
+          s3tl_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:70%;vertical-align:middle">
+        <a href="https://ieeexplore.ieee.org/abstract/document/10192368">
+          <span class="papertitle">Source Free Semi-Supervised Transfer Learning for Diagnosis of Mental Disorders on fMRI Scans
+</span>
+        </a>
+        <br>
+		Yao Hu, Zhi-An Huang, Rui Liu, <b>Xiaoming Xue</b>, Xiaoyan Sun, Linqi Song, Kay Chen Tan
+        <br>
+        <em>IEEE Transactions on Pattern Analysis and Machine Intelligence (<b>TPAMI</b>)</em>, 2023
+        <br>
+        <a href="https://ieeexplore.ieee.org/abstract/document/10192368">paper</a>
+        <p></p>
+        <p>
+        This work is the first attempt to propose an effective semi-supervised transfer learning (SSTL) framework dubbed S3TL for CAD of mental disorders on fMRI data. Within S3TL, a secure cross-domain feature alignment method is developed to generate target-related source model in SSL. Subsequently, an enhanced dual-stage pseudo-labeling approach is developed to assign pseudo-labels for unlabeled samples in target domain. Finally, an advantageous knowledge transfer method is conducted to improve the generalization capability of the target model.
+      </td>
+    </tr>
+
 	</tbody></table>
 
 	<table style="width:100%;border:0px;border-spacing:0px;border-collapse:collapse;margin-right:auto;margin-left:auto;cellspacing="0";"><tbody>
@@ -245,19 +282,6 @@
                 (*: corresponding author, full list: <a href="https://scholar.google.com/citations?user=0j3ugVUAAAAJ&hl=zh-TW&oi=sra">Google Scholar</a>)
               </td>
           </tr>
-
-
-	<tr>
-              <td style="padding-left:20px;padding-top:10px;width:100%;vertical-align:middle">
-                  <span class="papertitle">Source Free Semi-Supervised Transfer Learning for Diagnosis of Mental Disorders on fMRI Scans</span>
-                <br>
-                Yao Hu, Zhi-An Huang, Rui Liu, <b>Xiaoming Xue</b>, Xiaoyan Sun, Linqi Song, Kay Chen Tan
-                <br>
-                <em>IEEE Transactions on Pattern Analysis and Machine Intelligence (<b>TPAMI</b>)</em>, 2023
-                <br>
-                 <a href="https://ieeexplore.ieee.org/abstract/document/10192368">paper</a>
-              </td>
-   	 </tr>
 		
 	<tr>
               <td style="padding-left:20px;padding-top:10px;width:100%;vertical-align:middle">
