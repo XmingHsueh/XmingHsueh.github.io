@@ -473,6 +473,42 @@
       </td>
     </tr>
 
+	<tr onmouseout="dac_stop()" onmouseover="dac_start()">
+      <td style="padding:20px;width:30%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='dac_image'><video  width=130% muted autoplay loop>
+          <source src="data-xming/images/dac.jpg" type="video/mp4">
+          Your browser does not support the video tag.
+          </video></div>
+          <img src='data-xming/images/dac.jpg' width=130%>
+        </div>
+        <script type="text/javascript">
+          function dac_start() {
+            document.getElementById('dac_image').style.opacity = "1";
+          }
+
+          function dac_stop() {
+            document.getElementById('dac_image').style.opacity = "0";
+          }
+          dac_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:70%;vertical-align:middle">
+        <a href="https://www.sciencedirect.com/science/article/abs/pii/S0920410521016600">
+          <span class="papertitle">A Divide-and-Conquer Optimization Paradigm for Waterflooding Production Optimization
+</span>
+        </a>
+        <br>
+		<b>Xiaoming Xue</b>, Guodong Chen, Kai Zhang*, Liming Zhang, Xinggang Zhao, Linqi Song, Menghan Wang, Peng Wang
+        <br>
+        <em>Journal of Petroleum Science and Engineering (<b>JPSE</b>)</em>, 2022
+        <br>
+        <a href="https://www.sciencedirect.com/science/article/abs/pii/S0920410521016600">paper</a>
+        <p></p>
+        <p>
+        Given a large-scale production optimization problem, one may choose to decompose it into a number of simpler, lower-dimensional subproblems. Then, multiple data-driven surrogates are built for these subproblems. Finally, all the subproblem surrogates are optimized cooperatively using a reuse strategy for subproblem samples. From the perspective of production optimization, the joint scheme optimization of the original problem is transformed into the cooperative optimization of the schemes involved in multiple subproblems.
+    </tr>
+
 	</tbody></table>
 
 	<table style="width:100%;border:0px;border-spacing:0px;border-collapse:collapse;margin-right:auto;margin-left:auto;cellspacing="0";"><tbody>
@@ -483,18 +519,6 @@
               </td>
           </tr>
 
-	<tr>
-              <td style="padding-left:20px;padding-top:10px;width:100%;vertical-align:middle">
-                  <span class="papertitle">A Divide-and-Conquer Optimization Paradigm for Waterflooding Production Optimization</span>
-                <br>
-                <b>Xiaoming Xue</b>, Guodong Chen, Kai Zhang*, Liming Zhang, Xinggang Zhao, Linqi Song, Menghan Wang, Peng Wang
-                <br>
-                <em>Journal of Petroleum Science and Engineering (<b>JPSE</b>)</em>, 2022
-                <br>
-                 <a href="https://www.sciencedirect.com/science/article/abs/pii/S0920410521016600">paper</a>
-              </td>
-   	 </tr>
-		
 	<tr>
               <td style="padding-left:20px;padding-top:10px;width:100%;vertical-align:middle">
                   <span class="papertitle">Self-Adaptive Multifactorial Evolutionary Algorithm for Multitasking Production Optimization</span>
