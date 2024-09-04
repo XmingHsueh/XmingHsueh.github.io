@@ -276,6 +276,43 @@
       </td>
     </tr>
 
+	<tr onmouseout="stoec_stop()" onmouseover="stoec_start()">
+      <td style="padding:20px;width:30%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='stoec_image'><video  width=130% muted autoplay loop>
+          <source src="data-xming/images/sto-ec.jpg" type="video/mp4">
+          Your browser does not support the video tag.
+          </video></div>
+          <img src='data-xming/images/sto-ec.jpg' width=130%>
+        </div>
+        <script type="text/javascript">
+          function stoec_start() {
+            document.getElementById('stoec_image').style.opacity = "1";
+          }
+
+          function stoec_stop() {
+            document.getElementById('stoec_image').style.opacity = "0";
+          }
+          stoec_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:70%;vertical-align:middle">
+        <a href="https://ieeexplore.ieee.org/abstract/document/10342789">
+          <span class="papertitle">Solution Transfer in Evolutionary Optimization: An Empirical Study on Sequential Transfer
+</span>
+        </a>
+        <br>
+		<b>Xiaoming Xue</b>, Cuie Yang*, Liang Feng*, Kai Zhang, Linqi Song*, Kay Chen Tan
+        <br>
+        <em>IEEE Transactions on Evolutionary Computation (<b>TEVC</b>)</em>, 2023
+        <br>
+        <a href="https://ieeexplore.ieee.org/abstract/document/10342789">paper</a> / <a href="https://github.com/XmingHsueh/STO-EC">code</a>
+        <p></p>
+        <p>
+        A holistic review of various techniques associated with the fundamental aspects of solution transfer (i.e., what, when and how to transfer) is presented. Additionally, a series of experiments are conducted to explore the underlying transfer mechanisms that enhance the evolutionary with diverse source-target similarities in the context of continuous optimization with sequential transfer.
+      </td>
+    </tr>
+
 	</tbody></table>
 
 	<table style="width:100%;border:0px;border-spacing:0px;border-collapse:collapse;margin-right:auto;margin-left:auto;cellspacing="0";"><tbody>
@@ -408,18 +445,6 @@
                 (*: corresponding author, full list: <a href="https://scholar.google.com/citations?user=0j3ugVUAAAAJ&hl=zh-TW&oi=sra">Google Scholar</a>)
               </td>
           </tr>
-		
-	<tr>
-              <td style="padding-left:20px;padding-top:10px;width:100%;vertical-align:middle">
-                  <span class="papertitle">Solution Transfer in Evolutionary Optimization: An Empirical Study on Sequential Transfer</span>
-                <br>
-                <b>Xiaoming Xue</b>, Cuie Yang*, Liang Feng*, Kai Zhang, Linqi Song*, Kay Chen Tan
-                <br>
-                <em>IEEE Transactions on Evolutionary Computation (<b>TEVC</b>)</em>, 2023
-                <br>
-                 <a href="https://ieeexplore.ieee.org/abstract/document/10342789">paper</a> / <a href="https://github.com/XmingHsueh/STO-EC">code</a>
-              </td>
-   	 </tr>
 
 	<tr>
               <td style="padding-left:20px;padding-top:10px;width:100%;vertical-align:middle">
