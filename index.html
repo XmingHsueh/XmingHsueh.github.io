@@ -50,16 +50,6 @@
 
 	<tr>
               <td style="padding-left:20px;padding-top:10px;width:100%;vertical-align:middle">
-                  <span class="papertitle">Surrogate-Assisted Search with Competitive Knowledge Transfer for Expensive Optimization</span>
-                <br>
-                <b>Xiaoming Xue</b>, Yao Hu, Liang Feng, Kai Zhang, Linqi Song, Kay Chen Tan
-                <br>
-                 <a href="https://arxiv.org/abs/2408.07176">paper</a> / <a href="https://github.com/XmingHsueh/SAS-CKT">code</a>
-              </td>
-   	 </tr>
-
-	<tr>
-              <td style="padding-left:20px;padding-top:10px;width:100%;vertical-align:middle">
                   <span class="papertitle">A Scalable Test Problem Generator for Sequential Transfer Optimization</span>
                 <br>
                 <b>Xiaoming Xue</b>, Cuie Yang, Liang Feng, Kai Zhang, Linqi Song, Kay Chen Tan
@@ -127,6 +117,55 @@
         Both the optimized solutions from source tasks and the promising solutions acquired by the target task are treated as task-solving knowledge, enabling them to compete with each other to elect the winner for expensive evaluation, thus boosting the search speed on the target task. Moreover, the nonnegative performance gain resulting from such competitive knowledge transfer is analyzed theoretically.
       </td>
     </tr>
+
+	<tr onmouseout="glesto_stop()" onmouseover="glesto_start()">
+      <td style="padding:20px;width:30%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='glesto_image'><video  width=130% muted autoplay loop>
+          <source src="data-xming/images/gl-esto.jpg" type="video/mp4">
+          Your browser does not support the video tag.
+          </video></div>
+          <img src='data-xming/images/gl-esto.jpg' width=130%>
+        </div>
+        <script type="text/javascript">
+          function glesto_start() {
+            document.getElementById('glesto_image').style.opacity = "1";
+          }
+
+          function glesto_stop() {
+            document.getElementById('glesto_image').style.opacity = "0";
+          }
+          glesto_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:70%;vertical-align:middle">
+        <a href="https://ieeexplore.ieee.org/abstract/document/10565847">
+          <span class="papertitle">Global and Local Search Experience-Based Evolutionary Sequential Transfer Optimization
+</span>
+        </a>
+        <br>
+		Chenming Cao, Kai Zhang*, <b>Xiaoming Xue</b>*, Kay Chen Tan, Jian Wang, Liming Zhang, Piyang Liu, Xia Yan
+        <br>
+        <em>IEEE Transactions on Evolutionary Computation (<b>TEVC</b>)</em>, 2024
+        <br>
+        <a href="https://ieeexplore.ieee.org/abstract/document/10565847">paper</a> / <a href="https://github.com/ccm831143/GL-LERC">code</a>
+        <p></p>
+        <p>
+        By dividing the optimization experience into two categories, i.e., global and local search experience, a novel transferability metric named landscape encoding-based rank correlation is proposed and instantiated for global and local transfer, which can work cooperatively for maximum performance enhancement for the target task.
+      </td>
+    </tr>
+
+	</tbody></table>
+
+	<table style="width:100%;border:0px;border-spacing:0px;border-collapse:collapse;margin-right:auto;margin-left:auto;cellspacing="0";"><tbody>
+		<tr>
+	      <td style="padding-left:20px;padding-top:20px;width:100%;vertical-align:middle">
+                <h2><b>Benchmarks</b></h2>
+              </td>
+          </tr>
+	</tbody></table>
+
+	<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 		
 	<tr onmouseout="mstop_stop()" onmouseover="mstop_start()">
       <td style="padding:20px;width:30%;vertical-align:middle">
@@ -167,6 +206,17 @@
         </p>
       </td>
     </tr>
+	</tbody></table>
+
+	<table style="width:100%;border:0px;border-spacing:0px;border-collapse:collapse;margin-right:auto;margin-left:auto;cellspacing="0";"><tbody>
+		<tr>
+	      <td style="padding-left:20px;padding-top:20px;width:100%;vertical-align:middle">
+                <h2><b>Surveys</b></h2>
+              </td>
+          </tr>
+	</tbody></table>
+		
+	<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
 	<tr onmouseout="mfo_stop()" onmouseover="mfo_start()">
       <td style="padding:20px;width:30%;vertical-align:middle">
@@ -205,42 +255,17 @@
       </td>
     </tr>
 
-	<tr onmouseout="glesto_stop()" onmouseover="glesto_start()">
-      <td style="padding:20px;width:30%;vertical-align:middle">
-        <div class="one">
-          <div class="two" id='glesto_image'><video  width=130% muted autoplay loop>
-          <source src="data-xming/images/gl-esto.jpg" type="video/mp4">
-          Your browser does not support the video tag.
-          </video></div>
-          <img src='data-xming/images/gl-esto.jpg' width=130%>
-        </div>
-        <script type="text/javascript">
-          function glesto_start() {
-            document.getElementById('glesto_image').style.opacity = "1";
-          }
+	</tbody></table>
 
-          function glesto_stop() {
-            document.getElementById('glesto_image').style.opacity = "0";
-          }
-          glesto_stop()
-        </script>
-      </td>
-      <td style="padding:20px;width:70%;vertical-align:middle">
-        <a href="https://ieeexplore.ieee.org/abstract/document/10565847">
-          <span class="papertitle">Global and Local Search Experience-Based Evolutionary Sequential Transfer Optimization
-</span>
-        </a>
-        <br>
-		Chenming Cao, Kai Zhang*, <b>Xiaoming Xue</b>*, Kay Chen Tan, Jian Wang, Liming Zhang, Piyang Liu, Xia Yan
-        <br>
-        <em>IEEE Transactions on Evolutionary Computation (<b>TEVC</b>)</em>, 2024
-        <br>
-        <a href="https://ieeexplore.ieee.org/abstract/document/10565847">paper</a> / <a href="https://github.com/ccm831143/GL-LERC">code</a>
-        <p></p>
-        <p>
-        By dividing the optimization experience into two categories, i.e., global and local search experience, a novel transferability metric named landscape encoding-based rank correlation is proposed and instantiated for global and local transfer, which can work cooperatively for maximum performance enhancement for the target task.
-      </td>
-    </tr>
+	<table style="width:100%;border:0px;border-spacing:0px;border-collapse:collapse;margin-right:auto;margin-left:auto;cellspacing="0";"><tbody>
+		<tr>
+	      <td style="padding-left:20px;padding-top:20px;width:100%;vertical-align:middle">
+                <h2><b>Applications</b></h2>
+              </td>
+          </tr>
+	</tbody></table>
+
+	<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
 	<tr onmouseout="ckt_stop()" onmouseover="ckt_start()">
       <td style="padding:20px;width:30%;vertical-align:middle">
