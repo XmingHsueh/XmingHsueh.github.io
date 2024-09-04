@@ -436,6 +436,43 @@
       </td>
     </tr>
 
+	<tr onmouseout="tgp_stop()" onmouseover="tgp_start()">
+      <td style="padding:20px;width:30%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='tgp_image'><video  width=130% muted autoplay loop>
+          <source src="data-xming/images/tgp.jpg" type="video/mp4">
+          Your browser does not support the video tag.
+          </video></div>
+          <img src='data-xming/images/tgp.jpg' width=130%>
+        </div>
+        <script type="text/javascript">
+          function tgp_start() {
+            document.getElementById('tgp_image').style.opacity = "1";
+          }
+
+          function tgp_stop() {
+            document.getElementById('tgp_image').style.opacity = "0";
+          }
+          tgp_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:70%;vertical-align:middle">
+        <a href="https://onepetro.org/SJ/article-abstract/27/05/2895/484273/Historical-Window-Enhanced-Transfer-Gaussian?redirectedFrom=fulltext">
+          <span class="papertitle">Historical Window-Enhanced Transfer Gaussian Process for Production Optimization
+</span>
+        </a>
+        <br>
+		Chao Zhong, Kai Zhang*, <b>Xiaoming Xue</b>, Ji Qi, Liming Zhang, Xia Yan, Huaqing Zhang, Yongfei Yang
+        <br>
+        <em>SPE Journal (<b>SPE J</b>)</em>, 2022
+        <br>
+        <a href="https://onepetro.org/SJ/article-abstract/27/05/2895/484273/Historical-Window-Enhanced-Transfer-Gaussian?redirectedFrom=fulltext">paper</a>
+        <p></p>
+        <p>
+        By modeling production optimization as a dynamic optimization problem consisting of a series of time windows, the optimization data from historical windows are used as part of the training data to construct the transfer Gaussian process (TGP) for effectively solving the current expensive optimization task. This approach avoids the extensive time required for "trial and error" and achieves superior performance, similar to that of experienced engineers.
+      </td>
+    </tr>
+
 	</tbody></table>
 
 	<table style="width:100%;border:0px;border-spacing:0px;border-collapse:collapse;margin-right:auto;margin-left:auto;cellspacing="0";"><tbody>
@@ -446,18 +483,6 @@
               </td>
           </tr>
 
-	<tr>
-              <td style="padding-left:20px;padding-top:10px;width:100%;vertical-align:middle">
-                  <span class="papertitle">Historical Window-Enhanced Transfer Gaussian Process for Production Optimization</span>
-                <br>
-                Chao Zhong, Kai Zhang*, <b>Xiaoming Xue</b>, Ji Qi, Liming Zhang, Xia Yan, Huaqing Zhang, Yongfei Yang
-                <br>
-                <em>SPE Journal (<b>SPE J</b>)</em>, 2022
-                <br>
-                 <a href="https://onepetro.org/SJ/article-abstract/27/05/2895/484273/Historical-Window-Enhanced-Transfer-Gaussian?redirectedFrom=fulltext">paper</a>
-              </td>
-   	 </tr>
-		
 	<tr>
               <td style="padding-left:20px;padding-top:10px;width:100%;vertical-align:middle">
                   <span class="papertitle">A Divide-and-Conquer Optimization Paradigm for Waterflooding Production Optimization</span>
