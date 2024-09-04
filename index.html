@@ -40,26 +40,7 @@
               </td>
             </tr>
           </tbody></table>
-         
-	<table style="width:100%;border:0px;border-spacing:0px;border-collapse:collapse;margin-right:auto;margin-left:auto;cellspacing="0";"><tbody>
-	   <tr>
-              <td style="padding-left:20px;width:100%;vertical-align:middle">
-                <h2>Preprints</h2>
-              </td>
-          </tr>
 
-	<tr>
-              <td style="padding-left:20px;padding-top:10px;width:100%;vertical-align:middle">
-                  <span class="papertitle">A Scalable Test Problem Generator for Sequential Transfer Optimization</span>
-                <br>
-                <b>Xiaoming Xue</b>, Cuie Yang, Liang Feng, Kai Zhang, Linqi Song, Kay Chen Tan
-                <br>
-                 <a href="https://arxiv.org/abs/2304.08503">paper</a> / <a href="https://github.com/XmingHsueh/STOP-G">code</a>
-              </td>
-   	 </tr>
-		
-	 </tbody></table>
-	  
 
 	<table style="width:100%;border:0px;border-spacing:0px;border-collapse:collapse;margin-right:auto;margin-left:auto;cellspacing="0";"><tbody>
 	  <tr>
@@ -206,7 +187,47 @@
         </p>
       </td>
     </tr>
-	</tbody></table>
+
+	<tr onmouseout="stop_stop()" onmouseover="stop_start()">
+      <td style="padding:20px;width:30%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='stop_image'><video  width=140% muted autoplay loop>
+          <source src="data-xming/images/stop.jpg" type="video/mp4">
+          Your browser does not support the video tag.
+          </video></div>
+          <img src='data-xming/images/stop.jpg' width=140%>
+        </div>
+        <script type="text/javascript">
+          function stop_start() {
+            document.getElementById('stop_image').style.opacity = "1";
+          }
+
+          function stop_stop() {
+            document.getElementById('stop_image').style.opacity = "0";
+          }
+          stop_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:70%;vertical-align:middle">
+        <a href="https://arxiv.org/abs/2304.08503">
+          <span class="papertitle">A Scalable Test Problem Generator for Sequential Transfer Optimization
+</span>
+        </a>
+        <br>
+		<b>Xiaoming Xue</b>, Cuie Yang, Liang Feng, Kai Zhang, Linqi Song, Kay Chen Tan
+        <br>
+        <em>arXiv</em>, 2024
+        <br>
+        <a href="https://arxiv.org/abs/2304.08503">paper</a>
+        /
+        <a href="https://github.com/XmingHsueh/STOP-G">code</a>
+        <p></p>
+        <p>
+        	A scalable generator for sequential transfer optimization problems (STOPs) with customizable source-target similarities with respect to optimum is developed to enable more comprehensive evaluation of various analogy-based algorithms transferring optimized solutions. Note: In analogy, decisions about knowledge transfer are made based on <em>similarities<\em>.
+        </p>
+      </td>
+    </tr>
+		
 
 	<table style="width:100%;border:0px;border-spacing:0px;border-collapse:collapse;margin-right:auto;margin-left:auto;cellspacing="0";"><tbody>
 		<tr>
