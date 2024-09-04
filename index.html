@@ -325,6 +325,43 @@
       </td>
     </tr>
 
+	<tr onmouseout="top_stop()" onmouseover="top_start()">
+      <td style="padding:20px;width:30%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='top_image'><video  width=130% muted autoplay loop>
+          <source src="data-xming/images/top.jpg" type="video/mp4">
+          Your browser does not support the video tag.
+          </video></div>
+          <img src='data-xming/images/top.jpg' width=130%>
+        </div>
+        <script type="text/javascript">
+          function top_start() {
+            document.getElementById('top_image').style.opacity = "1";
+          }
+
+          function top_stop() {
+            document.getElementById('top_image').style.opacity = "0";
+          }
+          top_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:70%;vertical-align:middle">
+        <a href="https://ieeexplore.ieee.org/abstract/document/10605476">
+          <span class="papertitle">Sequential Transfer via Clustering-Based Similarity Measurement for Faster Trajectory Optimization
+</span>
+        </a>
+        <br>
+		Wu Lin, Qiuzhen Lin, <b>Xiaoming Xue</b>, Kay Chen Tan
+        <br>
+        <em>IEEE Conference on Artificial Intelligence (<b>CAI</b>)</em>, 2024
+        <br>
+        <a href="https://ieeexplore.ieee.org/abstract/document/10605476">paper</a>
+        <p></p>
+        <p>
+        A clustering-based similarity measurement method for evolutionary sequential transfer optimization is developed to accurately select promising source solutions to speed up the evolutionary search in solving trajectory optimization problems.
+      </td>
+    </tr>
+		
 	<tr onmouseout="s3tl_stop()" onmouseover="s3tl_start()">
       <td style="padding:20px;width:30%;vertical-align:middle">
         <div class="one">
