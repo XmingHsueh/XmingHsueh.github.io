@@ -62,6 +62,44 @@
 	</tbody></table>
 
 	<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+	<tr onmouseout="obo_stop()" onmouseover="obo_start()">
+      <td style="padding:20px;width:30%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='obo_image'><video  width=140% muted autoplay loop>
+          <source src="data-xming/images/obo-kt.jpg" type="video/mp4">
+          Your browser does not support the video tag.
+          </video></div>
+          <img src='data-xming/images/obo-kt.jpg' width=140%>
+        </div>
+        <script type="text/javascript">
+          function obo_start() {
+            document.getElementById('obo_image').style.opacity = "1";
+          }
+
+          function obo_stop() {
+            document.getElementById('obo_image').style.opacity = "0";
+          }
+          obo_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:70%;vertical-align:middle">
+        <a href="https://ieeexplore.ieee.org/abstract/document/11351609">
+          <span class="papertitle">Why Knowledge Transfer Works in Oracle-Based Optimization: A Brief Analysis
+</span>
+        </a>
+        <br>
+		Chenming Cao, <b>Xiaoming Xue</b>, Liang Feng, Kay Chen Tan
+        <br>
+        <em>International Conference on Machine Intelligence and Nature-Inspired Computing (MIND)</em>, 2025
+        <br>
+        <a href="https://ieeexplore.ieee.org/abstract/document/11351609">paper</a> / <a href="https://github.com/XmingHsueh/XmingHsueh.github.io/blob/master/data-xming/refs/bib-obo.bib">bibtex</a>
+        <p></p>
+        <p>
+        This paper presents a brief analysis aimed at clarifying why knowledge transfer is effective in oracle-based optimization, where problems are solved through iterative solution queries. Specifically, we address three fundamental questions: (1) What constitutes transferable knowledge? (2) Does knowledge transfer always improve performance? (3) If not, how can positive transfer be achieved? We hope our analysis deepens the understanding of when and why knowledge transfer is beneficial in optimization.
+        </p>
+      </td>
+    </tr>
 		
 	<tr onmouseout="taeto_stop()" onmouseover="taeto_start()">
       <td style="padding:20px;width:30%;vertical-align:middle">
